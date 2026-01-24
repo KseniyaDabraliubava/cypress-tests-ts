@@ -1,0 +1,25 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KseniyaDabraliubava/cypress-tests-ts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KseniyaDabraliubava/cypress-tests-ts/issues"
+  },
+  "homepage": "https://github.com/KseniyaDabraliubava/cypress-tests-ts#readme",
+  "devDependencies": {
+    "@types/node": "^25.0.10",
+    "cypress": "^15.9.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
