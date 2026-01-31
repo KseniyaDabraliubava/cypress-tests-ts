@@ -1,0 +1,8 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","267","Test 2: Server error","","2026-01-31","passed","2026-01-31","","Mock value","",""
+"","1190","Test 5: Remove item from cart","","2026-01-31","passed","2026-01-31","","Saucedemo Tests","",""
+"","1385","Test 4: Open product details and verify information","","2026-01-31","passed","2026-01-31","","Saucedemo Tests","",""
+"","2287","Test 1: Login with valid credentials","","2026-01-31","passed","2026-01-31","","Saucedemo Tests","",""
+"","503","Test 1: Intercept GET request and verify response","","2026-01-31","passed","2026-01-31","","Mock value","",""
+"","1176","Test 2: Show error with invalid credentials","","2026-01-31","passed","2026-01-31","","Saucedemo Tests","",""
+"","1330","Test 3: Add item to cart","","2026-01-31","passed","2026-01-31","","Saucedemo Tests","",""
