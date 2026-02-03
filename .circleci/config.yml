@@ -1,0 +1,21 @@
+version: 2.1
+
+orbs:
+  cypress: cypress-io/cypress@3
+
+workflows:
+  build:
+    jobs:
+      - cypress/run:
+          name: "Cypress E2E Tests"
+          install-command: npm install
+          browser: chrome
+          spec: 'cypress/e2e/**/*.cy.ts'
+          store_artifacts: true
+          post-steps:
+            - store_test_results:
+                path: cypress/results
+            - store_artifacts:
+                path: cypress/videos
+            - store_artifacts:
+                path: cypress/screenshots

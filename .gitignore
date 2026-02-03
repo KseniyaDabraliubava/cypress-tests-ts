@@ -2,7 +2,6 @@ node_modules/
 cypress/videos/
 cypress/screenshots/
 cypress/fixtures/
-package-lock.json
 .DS_Store
 allure-results
 allure-report
